@@ -7,8 +7,8 @@
 </template>
 
 <script setup>
-import AddProductFrom from '../components/AdminPageComponent/addProductFrom.vue';
-import Navbar from '../components/homepagecomponent/Navbar.vue';
+import AddProductFrom from '../components/AdminPageComponent/AddProductFrom.vue';
+import Navbar from '../components/HomePageComponent/Navbar.vue';
 </script>
 
 <style  scoped></style>
