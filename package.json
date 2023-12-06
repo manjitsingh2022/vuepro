@@ -8,10 +8,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "@quasar/extras": "^1.16.9",
+    "axios": "^1.6.2",
+    "firebase": "^10.7.1",
+    "pinia": "^2.1.7",
+    "quasar": "^2.14.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.6.0",
     "@vitejs/plugin-vue": "^4.4.0",
+    "sass": "^1.69.5",
     "vite": "^4.4.11"
   }
 }
