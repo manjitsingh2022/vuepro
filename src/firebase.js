@@ -21,6 +21,10 @@ import {
   getDownloadURL,
 } from "firebase/storage";
 
+//firebase auth
+import { getAuth, signInWithEmailAndPassword ,createUserWithEmailAndPassword,GoogleAuthProvider,onAuthStateChanged,signInWithPopup } from "firebase/auth";
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyB51wxFsWmD0-w2awlPnTmL_5JYrstIrn8",
   authDomain: "vuepro-98519.firebaseapp.com",
@@ -32,10 +36,11 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const auth = getAuth();
 
 export {
   app,
-  db,
+  db,auth,GoogleAuthProvider,signInWithEmailAndPassword,createUserWithEmailAndPassword,onAuthStateChanged,signInWithPopup,
   collection,
   getDoc,
   getDocs,

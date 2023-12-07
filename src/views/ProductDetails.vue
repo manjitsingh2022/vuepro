@@ -1,7 +1,7 @@
 <template>
     <div>
-<Navbar/>
-<ShowProductDetails/>
+        <Navbar />
+        <ShowProductDetails />
     </div>
 </template>
 
@@ -10,6 +10,4 @@ import Navbar from '../components/HomePageComponent/Navbar.vue';
 import ShowProductDetails from '../components/ProductDetailsComponent/showProductDetails.vue';
 </script>
 
-<style  scoped>
-
-</style>
+<style  scoped></style>
