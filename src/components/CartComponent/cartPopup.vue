@@ -2,7 +2,6 @@
     <div id="cart">
         <q-dialog :seamless="true" :modelValue="dialogVisibility" position="right">
             <q-card id="cart_card">
-
                 <q-card-section>
                     <div>
                         <h4 class="text-weight-bold">Recently Added Items</h4>
@@ -40,6 +39,7 @@ defineProps(['dialogVisibility'])
 
 const cartStore = useCartStore()
 
+
 const removeFromCart = (id) => {
     cartStore.removeFromCart(id)
 }
@@ -48,12 +48,14 @@ const removeFromCart = (id) => {
 
 <style lang="scss" scoped>
 #place_order {
-  margin-top: 5%;
+    margin-top: 5%;
 }
+
 #cart_total p {
-  margin-top: 4%;
-  font-size: 130%;
+    margin-top: 4%;
+    font-size: 130%;
 }
+
 #cart_card {
     height: 900px;
     width: 400px;
